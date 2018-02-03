@@ -1,0 +1,8 @@
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\bin\uppgift-GUI.dll.config
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\bin\uppgift-GUI.dll
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\bin\uppgift-GUI.pdb
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.csproj.CoreCompileInputs.cache
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.dll
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.pdb
