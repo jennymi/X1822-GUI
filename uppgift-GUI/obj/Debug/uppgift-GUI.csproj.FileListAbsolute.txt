@@ -6,3 +6,4 @@ C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GU
 C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.csproj.CoreCompileInputs.cache
 C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.dll
 C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.pdb
+C:\Users\Jenny\Documents\programmeringsuppgifter\GUI02FEB\uppgift-GUI\uppgift-GUI\obj\Debug\uppgift-GUI.csprojResolveAssemblyReference.cache

@@ -77,6 +77,8 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="index.js" />
+    <Content Include="Scripts\knockout-3.4.2.debug.js" />
+    <Content Include="Scripts\knockout-3.4.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
