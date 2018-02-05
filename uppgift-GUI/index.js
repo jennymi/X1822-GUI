@@ -14,3 +14,4 @@ xhttp.send();
 var viewModel = function (data) {
     this.notes = ko.observableArray(data);
 }
+

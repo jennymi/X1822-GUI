@@ -8,7 +8,7 @@
 <body>
     <div>
         <h1>My notes</h1>
-        <select id="dropdown" data-bind="foreach: notes()">
+        <select id="dropdown" data-bind="foreach: notes">
             <option data-bind="value: _id, text: title"></option>
         </select>
     </div>
@@ -16,9 +16,9 @@
 
     <div id="edit">
         <form id="noteForm">
-            <input style="width: 200px; background-color: lightgoldenrodyellow" data-bind="value: title, text: title" type="text" />
+            <input style="width: 200px; background-color: #d0efd2" data-bind="value: title, text: title" type="text" />
             <br/>
-            <textarea style="width: 198px; height: 150px; background-color: lightgoldenrodyellow" form="noteForm" id="noteBody" data-bind="value: body, text: body"></textarea>
+            <textarea style="width: 198px; height: 150px; background-color: #d0efd2" form="noteForm" id="noteBody" data-bind="value: body, text: body"></textarea>
             <br/>
             <button type="submit">Done</button>
         </form>
