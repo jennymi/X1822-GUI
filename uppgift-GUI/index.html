@@ -8,17 +8,17 @@
 <body>
     <div>
         <h1>My notes</h1>
-        <select id="dropdown" data-bind="foreach: notes">
-            <option data-bind="value: _id, text: title"></option>
+        <select id="dropdown" data-bind="foreach: notes" onchange="showNote()">
+            <option data-bind="value: text, text: title"></option>
         </select>
     </div>
     <hr/>
 
     <div id="edit">
-        <form id="noteForm">
-            <input style="width: 200px; background-color: #d0efd2" data-bind="value: title, text: title" type="text" />
+        <form id="noteForm" method="post">
+            <input style="width: 200px; background-color: #d0efd2" id="noteTitle" data-bind="value: note.title, text: note.title" type="text" />
             <br/>
-            <textarea style="width: 198px; height: 150px; background-color: #d0efd2" form="noteForm" id="noteBody" data-bind="value: body, text: body"></textarea>
+            <textarea style="width: 198px; height: 150px; background-color: #d0efd2" form="noteForm" id="noteBody" data-bind="value: note.text, text: note.text"></textarea>
             <br/>
             <button type="submit">Done</button>
         </form>
