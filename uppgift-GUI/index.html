@@ -15,7 +15,15 @@
     <hr/>
 
     <div id="edit">
-
+        <form id="noteForm">
+            <input style="width: 200px; background-color: lightgoldenrodyellow" data-bind="value: title, text: title" type="text" />
+            <br/>
+            <textarea style="width: 198px; height: 150px; background-color: lightgoldenrodyellow" form="noteForm" id="noteBody" data-bind="value: body, text: body"></textarea>
+            <br/>
+            <button type="submit">Done</button>
+        </form>
+        
+        
     </div>
 
 </body>
