@@ -4,23 +4,31 @@
     <script src="Scripts/knockout-3.4.2.js"></script>
     <script src="Scripts/knockout-3.4.2.debug.js"></script>
     <script src="index.js"></script>
+    <link href="Content/Css.css" rel="stylesheet" />
 </head>
 <body>
     <div>
-        <h1>My notes</h1>
-        <select id="dropdown" data-bind="foreach: notes" onchange="showNote()">
-            <option data-bind="value: text, text: title"></option>
-        </select>
+        <div>
+            <header><h1>MY NOTES</h1></header>
+        </div>
+
+        <center>
+            <select id="dropdown" data-bind="foreach: notes" onchange="showNote()">
+                <option data-bind="value: text, text: title"></option>
+            </select>
+        </center>
     </div>
     <hr/>
 
     <div id="edit">
         <form id="noteForm" method="post">
-            <input style="width: 200px; background-color: #d0efd2" id="noteTitle" data-bind="value: note.title, text: note.title" type="text" />
-            <br/>
-            <textarea style="width: 198px; height: 150px; background-color: #d0efd2" form="noteForm" id="noteBody" data-bind="value: note.text, text: note.text"></textarea>
-            <br/>
-            <button type="submit">Done</button>
+            <center>
+                <input style="width: 200px; background-color: #d0efd2" id="noteTitle" data-bind="value: note.title, text: note.title" type="text" />
+                <br />
+                <textarea style="width: 198px; height: 150px; background-color: #d0efd2" form="noteForm" id="noteBody" data-bind="value: note.text, text: note.text"></textarea>
+                <br />
+                <button class="button, button5" type="submit" onclick="postNote">Done</button>
+            </center>
         </form>
         
         

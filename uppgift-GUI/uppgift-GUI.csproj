@@ -75,6 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Css.css" />
     <Content Include="index.html" />
     <Content Include="index.js" />
     <Content Include="Scripts\knockout-3.4.2.debug.js" />
